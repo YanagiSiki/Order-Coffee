@@ -1,0 +1,36 @@
+﻿卡布奇諾
+75
+卡布奇諾 Cappuccino
+0
+冰那堤
+80
+冰那堤 Iced Caffé Latte
+0
+冰美式咖啡
+115
+冰美式咖啡 Iced Caffé Americano
+0
+冰焦糖瑪奇朵
+100
+冰焦糖瑪奇朵 Iced Caramel Macchiato
+0
+那堤
+95
+那堤 Caffé Latte
+0
+美式咖啡
+105
+美式咖啡 Caffé Americano
+0
+焦糖瑪奇朵
+115
+焦糖瑪奇朵 Caramel Macchiato
+0
+摩卡
+95
+摩卡 Caffé Mocha
+0
+濃縮咖啡
+110
+濃縮咖啡 Espresso
+0

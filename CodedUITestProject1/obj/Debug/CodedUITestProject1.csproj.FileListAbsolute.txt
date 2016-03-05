@@ -1,0 +1,28 @@
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\三上視窗程式設計\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\CodedUITestProject1\bin\Debug\HomeworkUnitTestProject.pdb
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\HomeworkUnitTestProject.pdb
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\asus\Desktop\C#\Homework _1\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb

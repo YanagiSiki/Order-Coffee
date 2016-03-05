@@ -1,0 +1,596 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Category.cs</File>
+              <Line>14</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Category.cs</File>
+              <Line>19</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Category.cs</File>
+              <Line>24</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Category.cs</File>
+              <Line>29</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.CustomerUpdateForm.UpdateDataGridView.23DataGridView recordDataGridView;Model model;Label total;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>23</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>CustomerUpdateForm.cs</File>
+              <Line>16</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>InitializeModelData.cs</File>
+              <Line>12</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>InitializeModelData.cs</File>
+              <Line>61</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>InitializeModelData.cs</File>
+              <Line>64</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.InitializeModelData.ReadFile.22string fileName;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>22</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>InitializeModelData.cs</File>
+              <Line>57</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Long parameter list(過長參數列)</SmellType>
+              <HashCode>LongParameterList.InitializeModelData.AddAllMealList.string name;int price;int number;string description;string image;int categoryNumber;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>6</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>InitializeModelData.cs</File>
+              <Line>80</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>空白與空行-15</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Meals.cs</File>
+              <Line>23</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.WindowsFormsApplication1.Model.184</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>11</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Delegate與Event-1</SmellType>
+              <HashCode>DelegateAndEvent1.Model.ModelChangedEventHandler.SIGN</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>15</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Delegate與Event-1</SmellType>
+              <HashCode>DelegateAndEvent1.Model._changedEventHandler.SIGN</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>16</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>類別宣告-1</SmellType>
+              <HashCode>ClassDeclaration1.Model._allPage</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>21</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>類別宣告-1</SmellType>
+              <HashCode>ClassDeclaration1.Model._thisPage</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>22</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Long parameter list(過長參數列)</SmellType>
+              <HashCode>LongParameterList.Model.AddAllMealList.string name;int price;int number;string description;string image;int categoryNumber;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>6</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>31</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>函式-3</SmellType>
+              <HashCode>Method3.Model.ReturnPage</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>Model.cs</File>
+              <Line>76</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.WindowsFormsApplication1.POSCustomerSideForm.151</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>POS-Customer SideForm.cs</File>
+              <Line>13</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.WindowsFormsApplication1.POSCustomerSideForm.216</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>POS-Customer SideForm.Designer.cs</File>
+              <Line>3</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.WindowsFormsApplication1.RestaurantSideForm.299</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>RestaurantSideForm.cs</File>
+              <Line>7</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.RestaurantSideForm.ControlMealItem.39</HashCode>
+              <Severity>Red</Severity>
+              <Weight>39</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>RestaurantSideForm.cs</File>
+              <Line>155</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.RestaurantSideForm.ControlCategoryItem.38</HashCode>
+              <Severity>Red</Severity>
+              <Weight>38</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>RestaurantSideForm.cs</File>
+              <Line>289</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.WindowsFormsApplication1.RestaurantSideForm.390</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>WindowsFormsApplication1</Project>
+              <File>RestaurantSideForm.Designer.cs</File>
+              <Line>3</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList>
+            <string xsi:nil="true" />
+            <string>SpacingAndNewLine15</string>
+          </HashCodeIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>Category.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CustomerUpdateForm.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>InitializeModelData.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Meals.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Order.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>POS-Customer SideForm.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>POS-Customer SideForm.Designer.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>RestaurantSideForm.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>RestaurantSideForm.Designer.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>RestaurantUpdateForm.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartForm.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartForm.Designer.cs</RelativePath>
+                <ProjectName>WindowsFormsApplication1</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelTest.cs</RelativePath>
+                <ProjectName>HomeworkUnitTestProject</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>HomeworkUnitTestProject</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CodedUITest1.cs</RelativePath>
+                <ProjectName>CodedUITestProject1</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>CodedUITestProject1</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Robot.cs</RelativePath>
+                <ProjectName>CodedUITestProject1</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <TotalLine>0</TotalLine>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\bin\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\bin\Debug\HomeworkUnitTestProject.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\三上視窗程式設計\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.pdb
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\bin\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\bin\Debug\HomeworkUnitTestProject.pdb
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\bin\Debug\DataGridViewNumericUpDownElements.dll
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.dll
+C:\Users\asus\Desktop\C#\Homework _1\HomeworkUnitTestProject\obj\Debug\HomeworkUnitTestProject.pdb
